@@ -253,9 +253,9 @@ Dengan waktu yang lebih longgar, kandidat diharapkan menyelesaikan seluruh bagia
 ## 10. Yang Disediakan ke Kandidat
 
 - Starter repo (folder ini) berisi skeleton kosong: struktur folder, dependencies, koneksi server & database sudah jalan, tapi model/controller/middleware/halaman React masih TODO.
-- Akses MySQL lokal (kredensial/connection string).
 - Dokumen spesifikasi ini.
-- Kredensial Google OAuth Client ID/Secret jika bagian Google login ingin dinilai (bisa disiapkan panitia agar kandidat tidak perlu bikin sendiri).
+
+Catatan: instalasi/akses **MySQL lokal** dan pembuatan kredensial **Google OAuth Client ID/Secret** (lewat Google Cloud Console) disiapkan sendiri oleh kandidat, lalu diisi ke `backend/.env` masing-masing (lihat `.env.example`).
 
 ## 11. Yang Dikumpulkan/Dinilai di Akhir Sesi
 
